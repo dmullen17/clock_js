@@ -1,0 +1,35 @@
+html {
+    background: url(syd-sujuaan-1113331-unsplash.jpg); 
+    height: 100vh;
+    background-position: center;
+    background-size: cover; /*re-size image based on window*/
+    text-align: center;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock {
+    margin: auto;
+    border: 20px solid white;
+    border-radius: 50%;
+    width: 27vw;
+    height: 27vw;
+}
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hand {
+    position: absolute;
+    background-color: black; 
+    height: 5px;
+    width: 45%;
+    top: 50%;  /* we need a position property in order to use this */
+}
