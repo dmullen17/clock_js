@@ -30,6 +30,19 @@ body {
     position: absolute;
     background-color: black; 
     height: 5px;
-    width: 45%;
+    width: 50%;
     top: 50%;  /* we need a position property in order to use this */
+    transform: rotate(90deg) ;
+    transform-origin: center right;
+    transition:all 0.1s; 
+    transition-timing-function: cubic-bezier(0.1, 2.7, .58, 1);
+}
+
+.hand-hour {
+}
+
+
+
+.hand-second {
+    height: 4px;
 }
