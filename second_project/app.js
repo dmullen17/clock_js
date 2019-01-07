@@ -1,1 +1,1 @@
-console.log('hi');
+let date = new Date;
